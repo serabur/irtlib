@@ -2,6 +2,12 @@ package data
 
 import "time"
 
+const (
+	ActualDifficultyAT = "ACTUAL_DIFFICULTY_CALCULATION"
+	IncorrectDetectionAT = "INCORRECT_ITEM_DETECTION"
+	CompromiseDetectionAT = "COMPROMISE_ITEM_DETECTION"
+)
+
 type ItemData struct {
 	ItemID string
 	ActualDifficulty float64
